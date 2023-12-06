@@ -1,0 +1,28 @@
+body {
+  background-image: url(https://www.lufficiodeiviaggi.it/wp-content/uploads/2021/03/stars-1837306_1280.jpg);
+}
+
+h1 {
+  text-align: center;
+  color: lightblue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 20px;
+  font-size: 2em;
+}
+#principale {
+  margin-left: 500px;
+  margin-top: 20px;
+}
+#listadeidesideri {
+  text-align: center;
+  margin-top: 30px;
+  font-style: italic;
+  font-size: 1.5em;
+  background: radial-gradient (aquamarine, white);
+  border: 2px solid blue;
+  color: white;
+}
+
+.tagliato {
+  text-decoration: line-through;
+}
