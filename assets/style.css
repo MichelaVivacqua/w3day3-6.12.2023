@@ -1,4 +1,6 @@
 body {
+  width: 450px;
+  margin: auto;
   background-image: url(https://www.lufficiodeiviaggi.it/wp-content/uploads/2021/03/stars-1837306_1280.jpg);
 }
 
@@ -10,7 +12,7 @@ h1 {
   font-size: 2em;
 }
 #principale {
-  margin-left: 500px;
+  margin-left: 50px;
   margin-top: 20px;
 }
 #listadeidesideri {
