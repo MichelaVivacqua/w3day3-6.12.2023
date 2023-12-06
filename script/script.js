@@ -13,9 +13,11 @@ pageForm.addEventListener("submit", function (e) {
   const button = document.createElement("button");
   button.innerHTML = "Elimina";
 
-  button.addEventListener("click", function () {
-    alert("Hai cliccato il bottone!");
+  button.addEventListener("click", function (e) {
+    console.log(e.target);
+    e.target.parentElement.remove();
   });
+
   userCard.appendChild(button);
 
   const listaDeiDesideri = document.getElementById("listadeidesideri");
